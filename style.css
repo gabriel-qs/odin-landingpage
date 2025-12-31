@@ -1,13 +1,43 @@
-/*Base*/
+/*1. Base*/
 body {
 	margin: 0;
 }
+
 /*Layout*/
 .flex {
 	display: flex;
 }
-.direction-column {
+.column {
 	flex-direction: column;
 }
-/*Components*/
-/*Section*/
+.center-column {
+	align-items: center;
+}
+
+/*2. Components*/
+
+/*3. Section*/
+
+/*Header*/
+header {
+	align-items: center;
+}
+header > div {
+	max-width: 1200px;
+}
+.h-top > p, .h-top > nav {
+	flex: 1; 
+}
+nav ul {
+	gap: 25px;
+}
+.h-ads {
+	flex: 0 1 530px;
+}
+.h-img {
+	flex: 0 1 auto;
+}
+.h-img img {
+	width: 520px;
+  	height: 200px;
+}
