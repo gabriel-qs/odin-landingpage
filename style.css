@@ -1,4 +1,13 @@
 /*Base*/
+body {
+	margin: 0;
+}
 /*Layout*/
+.flex {
+	display: flex;
+}
+.direction-column {
+	flex-direction: column;
+}
 /*Components*/
 /*Section*/
