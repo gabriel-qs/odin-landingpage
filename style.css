@@ -1,6 +1,11 @@
 /*1. Base*/
 body {
 	margin: 0;
+	font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+header, footer {
+	background-color: #1F2937;
 }
 
 /*Layout*/
@@ -10,9 +15,6 @@ body {
 .column {
 	flex-direction: column;
 }
-/*.center-column {
-	align-items: center;
-}*/
 
 /*2. Components*/
 
@@ -28,9 +30,21 @@ header > div {
 .h-top > p, .h-top > nav {
 	flex: 1; 
 }
+
+.logo {
+	font-size: 24px;
+	color: #F9FAF8;
+}
+
 nav ul {
 	gap: 25px;
+	list-style: none;
 }
+
+.h-top a {
+	text-decoration: none;
+}
+
 .h-ads {
 	flex: 0 1 530px;
 }
@@ -42,10 +56,26 @@ nav ul {
   	height: 200px;
 }
 
+.h-ads > h2 {
+	font-size: 48px;
+	color: #f9faf8;
+	font-weight: 900;
+}
+.h-ads > p, .h-top a {
+	font-size: 18px;
+	color: #E5E7EB;
+}
+
+
 /*information*/
 
 .information-title {
 	text-align: center;
+}
+.information-title > h2 {
+	font-size: 36px;
+	color: #1f2937;
+	font-weight: 900;
 }
 .information-gallery {
 	justify-content: center;
@@ -60,6 +90,7 @@ nav ul {
 
 .quote {
 	justify-content: center;
+	background-color: #E5E7EB;
 }
 
 .quote > div {
@@ -67,9 +98,13 @@ nav ul {
 }
 blockquote {
 	margin: 0;
+	font-size: 36px;
+	color: #1f2937;
+	font-weight: 300;
 }
 .quote cite {
 	align-self: end;
+	font-weight: bold;
 }
 
 /*call*/
@@ -81,6 +116,11 @@ blockquote {
 .call > div {
 	flex: 0 0 900px;
 	justify-content: space-around;
+	background-color: #3882f6;
+	color: #F9FAF8;
+}
+.call-title {
+	font-weight: bold;
 }
 .call-button {
 	align-self: center;
@@ -90,4 +130,6 @@ blockquote {
 
 footer {
 	justify-content: center;
+	color: #F9FAF8;
 }
+
