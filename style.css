@@ -18,6 +18,13 @@ header, footer {
 
 /*2. Components*/
 
+.information-img {
+	border: 5px solid #3882f6;
+	border-radius: 8px;
+	width: 200px;
+	height: 200px;
+}
+
 /*3. Section*/
 
 /*Header*/
@@ -81,10 +88,14 @@ nav ul {
 	justify-content: center;
 }
 
-.information-gallery img {
+figure {
+	text-align: center;
+}
+
+/*.information-gallery img {
 	width: 200px;
 	height: 200px;
-}
+}*/
 
 /*quote*/
 
