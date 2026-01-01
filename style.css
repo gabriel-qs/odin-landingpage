@@ -85,3 +85,9 @@ blockquote {
 .call-button {
 	align-self: center;
 } 
+
+/*footer*/
+
+footer {
+	justify-content: center;
+}
