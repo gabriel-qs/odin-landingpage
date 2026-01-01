@@ -10,9 +10,9 @@ body {
 .column {
 	flex-direction: column;
 }
-.center-column {
+/*.center-column {
 	align-items: center;
-}
+}*/
 
 /*2. Components*/
 
@@ -41,3 +41,19 @@ nav ul {
 	width: 520px;
   	height: 200px;
 }
+
+/*information*/
+
+.information-title {
+	text-align: center;
+}
+.information-gallery {
+	justify-content: center;
+}
+
+.information-gallery img {
+	width: 200px;
+	height: 200px;
+}
+
+
