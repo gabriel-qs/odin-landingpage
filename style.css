@@ -71,3 +71,17 @@ blockquote {
 .quote cite {
 	align-self: end;
 }
+
+/*call*/
+
+.call {
+	justify-content: center;
+}
+
+.call > div {
+	flex: 0 0 900px;
+	justify-content: space-around;
+}
+.call-button {
+	align-self: center;
+} 
