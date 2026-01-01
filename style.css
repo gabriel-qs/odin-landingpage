@@ -56,4 +56,18 @@ nav ul {
 	height: 200px;
 }
 
+/*quote*/
 
+.quote {
+	justify-content: center;
+}
+
+.quote > div {
+	    flex: 0 1 800px;
+}
+blockquote {
+	margin: 0;
+}
+.quote cite {
+	align-self: end;
+}
