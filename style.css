@@ -97,18 +97,18 @@ nav ul {
 .h-down {
 	gap: 50px;
 }
-.
-
 
 /*information*/
 
-.information-title {
-	text-align: center;
+.information {
+	padding-bottom: 100px;
 }
+
 .information-title > h2 {
 	font-size: 36px;
 	color: #1f2937;
 	font-weight: 900;
+	text-align: center;
 }
 .information-gallery {
 	justify-content: center;
@@ -117,11 +117,6 @@ nav ul {
 figure {
 	text-align: center;
 }
-
-/*.information-gallery img {
-	width: 200px;
-	height: 200px;
-}*/
 
 /*quote*/
 
