@@ -123,6 +123,8 @@ figure {
 .quote {
 	justify-content: center;
 	background-color: #E5E7EB;
+	padding-top: 80px;
+    	padding-bottom: 80px;
 }
 
 .quote > div {
@@ -143,6 +145,8 @@ blockquote {
 
 .call {
 	justify-content: center;
+	padding-top: 80px;
+    	padding-bottom: 80px;
 }
 
 .call > div {
@@ -150,9 +154,14 @@ blockquote {
 	justify-content: space-around;
 	background-color: #3882f6;
 	color: #F9FAF8;
+	padding: 45px;
+	border-radius: 8px;
 }
 .call-title {
 	font-weight: bold;
+}
+.call p {
+	margin: 0;
 }
 .call-button {
 	align-self: center;
@@ -167,5 +176,7 @@ blockquote {
 footer {
 	justify-content: center;
 	color: #F9FAF8;
+	padding-top: 20px;
+    	padding-bottom: 20px;
 }
 
