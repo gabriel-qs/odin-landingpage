@@ -39,9 +39,11 @@ header, footer {
 /*Header*/
 header {
 	align-items: center;
+	padding-bottom: 130px;
 }
 header > div {
 	max-width: 1200px;
+	gap: 70px;
 }
 .h-top > p, .h-top > nav {
 	flex: 1; 
@@ -55,6 +57,7 @@ header > div {
 nav ul {
 	gap: 25px;
 	list-style: none;
+	justify-content: center;
 }
 
 .h-top a {
@@ -81,6 +84,20 @@ nav ul {
 	font-size: 18px;
 	color: #E5E7EB;
 }
+.h-ads > p, .h-ads > h2 {
+	margin: 0;
+}
+.h-ads > button {
+	margin-top: 10px;
+}
+
+.h-top nav {
+	align-self: center;
+}
+.h-down {
+	gap: 50px;
+}
+.
 
 
 /*information*/
