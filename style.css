@@ -2,6 +2,8 @@
 body {
 	margin: 0;
 	font-family: 'Roboto', Arial, Helvetica, sans-serif;
+	display: flex;
+	flex-direction: column;
 }
 
 header, footer {
@@ -40,11 +42,20 @@ header, footer {
 header {
 	align-items: center;
 	padding-bottom: 130px;
+	display: flex;
+	flex-direction: column;
 }
 header > div {
 	max-width: 1200px;
 	gap: 70px;
+	display: flex;
+	flex-direction: column;
 }
+
+.h-top {
+	display: flex;
+}
+
 .h-top > p, .h-top > nav {
 	flex: 1; 
 }
@@ -58,6 +69,7 @@ nav ul {
 	gap: 25px;
 	list-style: none;
 	justify-content: center;
+	display: flex;
 }
 
 .h-top a {
@@ -66,6 +78,7 @@ nav ul {
 
 .h-ads {
 	flex: 0 1 530px;
+	flex-direction: column;
 }
 .h-img {
 	flex: 0 1 auto;
@@ -96,12 +109,25 @@ nav ul {
 }
 .h-down {
 	gap: 50px;
+	display: flex;
+}
+
+/*Main*/
+
+main {
+	display: flex;
+	flex-direction: column;
 }
 
 /*information*/
 
 .information {
 	padding-bottom: 100px;
+}
+
+.information > div {
+	display: flex;
+	flex-direction: column;
 }
 
 .information-title > h2 {
@@ -111,6 +137,7 @@ nav ul {
 	text-align: center;
 }
 .information-gallery {
+	display: flex;
 	justify-content: center;
 }
 
@@ -125,6 +152,7 @@ figure {
 	background-color: #E5E7EB;
 	padding-top: 80px;
     	padding-bottom: 80px;
+	display: flex;
 }
 
 .quote > div {
@@ -135,6 +163,8 @@ blockquote {
 	font-size: 36px;
 	color: #1f2937;
 	font-weight: 300;
+	display: flex;
+	flex-direction: column;
 }
 .quote cite {
 	align-self: end;
@@ -147,6 +177,7 @@ blockquote {
 	justify-content: center;
 	padding-top: 80px;
     	padding-bottom: 80px;
+	display: flex;
 }
 
 .call > div {
@@ -156,6 +187,7 @@ blockquote {
 	color: #F9FAF8;
 	padding: 45px;
 	border-radius: 8px;
+	display: flex;
 }
 .call-title {
 	font-weight: bold;
@@ -178,5 +210,6 @@ footer {
 	color: #F9FAF8;
 	padding-top: 20px;
     	padding-bottom: 20px;
+	display: flex;
 }
 
