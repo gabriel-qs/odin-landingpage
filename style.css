@@ -6,11 +6,17 @@ body {
 	flex-direction: column;
 }
 
-header, footer {
+header, footer, .hero {
 	background-color: #1F2937;
 }
 
+.h-ads > p, .header-links a {
+	font-size: 18px;
+	color: #E5E7EB;
+}
+
 /*Layout*/
+
 .flex {
 	display: flex;
 }
@@ -41,44 +47,50 @@ header, footer {
 /*Header*/
 header {
 	align-items: center;
-	padding-bottom: 130px;
 	display: flex;
-	flex-direction: column;
-}
-header > div {
-	max-width: 1200px;
-	gap: 70px;
-	display: flex;
-	flex-direction: column;
-}
-
-.h-top {
-	display: flex;
-}
-
-.h-top > p, .h-top > nav {
-	flex: 1; 
+	justify-content: space-around;
+	gap: 240px; /*Para alinhar o header com o hero*/
 }
 
 .logo {
-	font-size: 24px;
 	color: #F9FAF8;
+	font-size: 24px;
 }
 
-nav ul {
+.header-links {
 	gap: 25px;
 	list-style: none;
-	justify-content: center;
 	display: flex;
 }
 
-.h-top a {
+.header-links a {
 	text-decoration: none;
+}
+nav {
+	align-self: center;
+}
+
+
+/*Main*/
+
+main {
+	display: flex;
+	flex-direction: column;
+}
+
+/*Hero*/
+
+.hero {
+    	display: flex;
+    	justify-content: center;
+	gap: 50px;
+	padding-top: 100px;
+	padding-bottom: 200px;
+
 }
 
 .h-ads {
 	flex: 0 1 530px;
-	flex-direction: column;
 }
 .h-img {
 	flex: 0 1 auto;
@@ -93,30 +105,11 @@ nav ul {
 	color: #f9faf8;
 	font-weight: 900;
 }
-.h-ads > p, .h-top a {
-	font-size: 18px;
-	color: #E5E7EB;
-}
 .h-ads > p, .h-ads > h2 {
 	margin: 0;
 }
 .h-ads > button {
 	margin-top: 10px;
-}
-
-.h-top nav {
-	align-self: center;
-}
-.h-down {
-	gap: 50px;
-	display: flex;
-}
-
-/*Main*/
-
-main {
-	display: flex;
-	flex-direction: column;
 }
 
 /*information*/
