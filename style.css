@@ -34,13 +34,13 @@ header, footer, .hero {
 	border-radius: 10px;
 }
 
-
-.information-img {
+.info-img {
 	border: 5px solid #3882f6;
-	border-radius: 8px;
-	width: 200px;
-	height: 200px;
+        border-radius: 8px;
+        width: 200px;
+        height: 200px;
 }
+
 
 /*3. Section*/
 
@@ -71,6 +71,7 @@ nav {
 }
 
 
+
 /*Main*/
 
 main {
@@ -93,11 +94,12 @@ main {
 	flex: 0 1 530px;
 }
 .h-img {
-	flex: 0 1 auto;
-}
-.h-img img {
 	width: 520px;
   	height: 200px;
+}
+.h-img img {
+	width: 100%;
+  	height: 100%;
 }
 
 .h-ads > h2 {
@@ -136,6 +138,15 @@ main {
 
 figure {
 	text-align: center;
+}
+
+.info-img > img {
+	width: 100%;
+	height: 100%;
+}
+
+.information-gallery figcaption {
+	padding: 10px;
 }
 
 /*quote*/
